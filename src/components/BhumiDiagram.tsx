@@ -46,7 +46,7 @@ export default function BhumiDiagram() {
     if (isRunning) return;
     setIsRunning(true);
     setCurrentStep(0);
-    setTerminalLines(['Initiating Smart India Hackathon RAG query pipeline...']);
+    setTerminalLines(['Initiating Bhumi RAG query pipeline...']);
 
     for (let i = 0; i < pipeline.length; i++) {
       setCurrentStep(i);
@@ -118,7 +118,7 @@ export default function BhumiDiagram() {
       <div className="bg-[#0B0F19] border border-border/80 rounded p-4 h-48 overflow-y-auto font-mono text-[10px] leading-relaxed text-[#F8FAFC]">
         <div className="text-text-muted border-b border-border/40 pb-1.5 mb-2 flex justify-between items-center">
           <span>CONSOLE LOGS</span>
-          <span>SIH Finalist Node v1.0.4</span>
+          <span>Bhumi Engine v1.0.4</span>
         </div>
         {terminalLines.map((line, idx) => {
           let color = 'text-[#F8FAFC]';

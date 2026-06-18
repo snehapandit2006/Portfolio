@@ -320,7 +320,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center font-mono text-[9px]">
                   <span className="px-2 py-0.5 rounded bg-[#60A5FA]/10 text-accent font-bold uppercase">
-                    Smart India Hackathon Finalist
+                    Personal Project
                   </span>
                   <span className="text-text-muted">LangChain / FastAPI / Vector DB</span>
                 </div>
@@ -627,7 +627,7 @@ export default function Home() {
                 🏆 National Finalist
               </h3>
               <p className="text-[10px] text-text-muted leading-normal">
-                Staged and pitched the Bhumi Smart Land Governance platform to national administrative bodies.
+                Selected as a national finalist for an AI-based smart governance system during SIH.
               </p>
             </div>
 
